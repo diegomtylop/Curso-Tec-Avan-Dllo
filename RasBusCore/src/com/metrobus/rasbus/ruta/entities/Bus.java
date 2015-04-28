@@ -6,7 +6,7 @@
 package com.metrobus.rasbus.ruta.entities;
 
 /**
- *
+ * Comentarios sin valor ingresados en a clase para probar como se ve el commit en otra rama
  * @author Aula Movil
  */
 public class Bus {
