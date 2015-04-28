@@ -11,6 +11,7 @@ package com.metrobus.rasbus.ruta.entities;
  */
 public class Parada {
     private String id;
+    private Posicion posicion;
 
     public String getId() {
         return id;
@@ -19,7 +20,7 @@ public class Parada {
     public void setId(String id) {
         this.id = id;
     }
-    private Posicion posicion;
+    
 
     public Posicion getPosicion() {
         return posicion;
