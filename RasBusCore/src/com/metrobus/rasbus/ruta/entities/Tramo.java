@@ -17,6 +17,7 @@ class Tramo {
     private Posicion inicio;
     private Posicion destino;
     private double distancia;
+    //private List<Parada> paradas;
     
     //No se puede instanciar
     private Tramo(){}
@@ -35,7 +36,6 @@ class Tramo {
     public void setDistancia(double distancia) {
         this.distancia = distancia;
     }
-    private List<Parada> paradas;
     
     //Validaciones generales de un tramo, que se podrían usar desde cualquier parte de la aplicación
     public boolean validarTramo(){
@@ -74,13 +74,13 @@ class Tramo {
         this.destino = destino;
     }
 
-    public List<Parada> getParadas() {
+   /* public List<Parada> getParadas() {
         return paradas;
     }
 
     public void setParadas(List<Parada> paradas) {
         this.paradas = paradas;
-    }
+    }*/
 
     @Override
     public boolean equals(Object obj) {
